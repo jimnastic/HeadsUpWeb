@@ -32,6 +32,12 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
 
     <!-- Fixed navbar -->
 	    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -196,5 +202,25 @@ $(function(){
 	  interval: 3500
 	})
 	</script>
+  
+	<!-- ClickTale Bottom part -->
+
+	<script type='text/javascript'>
+
+
+	// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+	// 
+	//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+	//
+	// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+	document.write(unescape("%3Cscript%20src='"+
+	(document.location.protocol=='https:'?
+	"https://cdnssl.clicktale.net/www02/ptc/987bc817-e19c-499a-a0fc-3aa1342d47d9.js":
+	"http://cdn.clicktale.net/www02/ptc/987bc817-e19c-499a-a0fc-3aa1342d47d9.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<!-- ClickTale end of Bottom part -->
+	
   </body>
 </html>
