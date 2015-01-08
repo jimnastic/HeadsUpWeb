@@ -103,7 +103,7 @@ Classes
 .text-center img {display: block; margin: 0 auto;}
 
 .btn {-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; border-radius: 0; padding: 15px 35px; font-weight: bold;}
-.btn:hover, .btn:focus { background-color:#39b54a; color: #FFF;}
+.btn:hover, .btn:focus { background-color:#08b4da; color: #FFF;}
 
 .btn-transparent {background-color: transparent; border: 2px solid #FFF;  color: #fff; }
 .btn-transparent:hover {background-color: #2a2a2a; border-color: #2a2a2a;}
@@ -112,7 +112,7 @@ Classes
 .btn-price:hover {background-color: #FFF; border-color: #FFF; color: #2a2a2a;}
 
 .arrow-bottom { position: relative; }
-.arrow-bottom:after { left: 50%; bottom: -50px; position: absolute; content: ""; border: 25px solid; border-color: #FFF transparent transparent transparent; display: block; margin-left: -13.5px;}
+.arrow-bottom:after { left: 50%; bottom: -50px; position: absolute; content: ""; border: 25px solid; border-color: #FAFAFA transparent transparent transparent; display: block; margin-left: -13.5px;}
 
 /* ==========================================================================
 Color Customizations
@@ -124,23 +124,16 @@ Color Customizations
 .bg-blue {background-color: #08b4da;}
 .bg-dark {background-color: #333;}
 
-.bg-grey-pattern {background-color: #f1f2f2;}
+.bg-blue-pattern {background-color: #08b4da; background:url(../img/blue-square.png);}
 .bg-testimonial {background:url(../img/headshot-bg.jpg);}
 
 .blue {color: #08b4da;}
-.green {color: #39b54a;}
-.amber {color: #f15a24;}
-.red {color: #db0505;}
 
 .white-text {color: #FFF;}
 .white-text p {color: #FFF;}
 .white-text h3 {color: #FFF;}
 .white-text h2 {color: #FFF;}
 .white-text li {color: #FFF;}
-
-.green-text h2 {color: #39b54a;}
-.main-point h3 {color: #000;}
-.main-point-green h3 {color: #39b54a;}
 
 /* ==========================================================================
 Line Font
@@ -151,7 +144,7 @@ Line Font
 /* ==========================================================================
 Headline
 ========================================================================== */ 
-.headline {text-align: center; position:relative; margin-bottom: 50px;}
+.headline {text-align: center; position:relative; border-bottom:1px solid rgba(0,0,0,0.03); margin-bottom: 50px;}
 .headline h1 {color: #31373a; padding-bottom: 15px; border-bottom: 2px solid #DDD; display: inline-block; font-size: 44px;}
 .headline h2 {font-size: 36px;}
 .headline p {margin-bottom: 40px; font-weight: 100; font-size: 16px; color: #2b2b2b;}
@@ -160,7 +153,7 @@ Headline
  Navigation
 ========================================================================== */ 
 .menu-right {float: right;}
-.navbar-inverse { margin-bottom: 0; -webkit-border-radius: 0; -moz-border-radius: 0;border-radius: 0; -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out; -moz-transition: background .5s ease-in-out,padding .5s ease-in-out; transition: background .5s ease-in-out,padding .5s ease-in-out; border: none; background-color: transparent; padding: 15px 0; }
+.navbar-inverse { margin-bottom: 0; -webkit-border-radius: 0; -moz-border-radius: 0;border-radius: 0; -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out; -moz-transition: background .5s ease-in-out,padding .5s ease-in-out; transition: background .5s ease-in-out,padding .5s ease-in-out; border: none; background-color: rgba(0,0,0,0.4); padding: 15px 0; }
 .navbar-inverse .navbar-nav > li > a { color: #fff; display: block; -webkit-transition: all 100ms ease-in-out; -moz-transition: all 100ms ease-in-out; -o-transition: all 100ms ease-in-out; -ms-transition: all 100ms ease-in-out; transition: all 100ms ease-in-out; }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li {-webkit-transition: all 400ms linear; -moz-transition: all 400ms linear; -o-transition: all 400ms linear; -ms-transition: all 400ms linear; transition: all 400ms linear;}
@@ -187,9 +180,6 @@ Headline
 .navbar-toggle .icon-bar { background-color: #fff;}
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: rgba(0,0,0,0.1);}
-
-.navbar-header {margin: 0; float: none;}
-.navbar-inner {text-align: center;}
  
 /* ==========================================================================
 Logo
@@ -202,16 +192,16 @@ Logo
 /* ==========================================================================
 Banner
 ========================================================================== */ 
-#banner {padding-top: 120px; padding-bottom: 70px; background-image: url(../img/blur1.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:610px; position: relative; background-attachment: fixed;}
+#banner {padding-top: 90px; padding-bottom: 70px; background: #1a1a1a; background-image: url(../img/blur.png); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:100%; position: relative; background-attachment: fixed;}
 
-.banner-content { clear: both; padding-top: 80px;}
+.banner-content { clear: both; padding-top: 40px;}
 .banner-content h1 {font-size: 50px; color: #FFF;  border-bottom:1px solid rgba(0,0,0,0.1); padding-bottom: 10px;}
 .banner-content h2 {color: #FFF;}
 .banner-content h5 {font-weight: bold; font-size: 16px; color: #FFF;}
-.banner-content p { color: rgba(255,255,255,0.7); font-size: 16px;}
+.banner-content p { color: rgba(255,255,255,0.7); }
 
 .banner-list {margin-bottom: 20px;}
-.banner-list li {color: black; margin-bottom: 5px;}
+.banner-list li {color: rgba(255,255,255, 0.8); margin-bottom: 5px;}
 .banner-list li i { margin-right: 10px; color:#08b4da; }
 
 /* ==========================================================================
@@ -241,10 +231,9 @@ Main Point
 Features
 ========================================================================== */ 
 .features {margin-bottom: 40px; text-align: left;}
-.features img {float: left; margin-right: 20px;}
-.features h3 {font-size: 18px; font-weight: 300; padding-top: 15px; }
+.features i {float: left; margin-right: 20px;}
+.features h3 {font-size: 18px; font-weight: bold; padding-top: 15px; }
 .features p { clear: both; padding-top: 10px;}
-#features {background-color: #39b54a;}
 
 /* ==========================================================================
 Forms
@@ -257,8 +246,8 @@ Forms
 
 .banner-form .form-control { color: #08b4da; border: none; outline: none; box-shadow: none; padding: 13px 15px; transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; border-radius: 0; height: auto; background-color: rgba(0,0,0,0.4); margin-bottom: 15px;}
 
-.btn-submit { display: block; margin:0 auto; background-color: #39b54a; color: #FFF; border-color:rgba(0,0,0,0.01); width:100%; padding: 11px; border:2px solid #39b54a;}
-.btn-submit:hover {background: #39b54a; border-color: white;}
+.btn-submit { display: block; margin:0 auto; background-color: #08b4da; color: #FFF; border-color:rgba(0,0,0,0.01); width:100%; padding: 11px; border:2px solid #08b4da;}
+.btn-submit:hover {background: #08b4da; border-color: #08b4da;}
 
 /* ==========================================================================
 Stats
@@ -336,7 +325,7 @@ faq-bodys
 Footer
  ========================================================================== */
 .footer-top {background-color: #2b2b2b; padding: 70px 0;}
-.footer-sub {background-color: #fff; padding: 30px 0;}
+.footer-sub {background-color: #242424; padding: 30px 0;}
 
 .footer h3 {color: #FFF; font-weight: bold; font-size: 19px; margin-bottom:15px;}
 .footer p,
@@ -421,8 +410,3 @@ Media Queries
 	.contact-list, .quick-links {margin-bottom: 30px;}
 	.copyright {float: none;}
 }
-
-/* ==========================================================================
-Retina Icons
-========================================================================== */ 
-.glyphs.character-mapping .icon{padding:15px;position:relative;color:#162a36 !important;overflow:hidden;-webkit-border-radius:3px;border-radius:3px;font-size:50px;}
