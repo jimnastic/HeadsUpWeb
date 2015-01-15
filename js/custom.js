@@ -27,3 +27,9 @@ $(".navbar-nav li a[href^='#']").on('click', function(e) {
         scrollTop: $(this.hash).offset().top
     }, 1000);
 });
+// --------------------------------------------------------
+//	Google Analytics signup submit
+// -------------------------------------------------------- 	
+$('.untorch-submit-button').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'GetEarlyAccess', 1);
+});
