@@ -30,15 +30,18 @@ $(".navbar-nav li a[href^='#']").on('click', function(e) {
 // --------------------------------------------------------
 //	Google Analytics Events
 // -------------------------------------------------------- 	
-// Try it Free quick scroll
+// Facebook Share
 $('#left-social-link').on('click', function() {
   ga('send', 'event', 'button', 'click', 'Share', 1);
+  alert('Share'); 
 });
 // Get Early Access Button click
 $('.untorch-submit-button').on('click', function() {
   ga('send', 'event', 'button', 'click', 'GetEarlyAccess', 1);
+  alert('GetAccess'); 
 });
-// Facebook Share
+// Try it Free quick scroll
 $('.btn-submit').on('click', function() {
   ga('send', 'event', 'button', 'click', 'QuickScroll', 1);
+  alert("scroll"); 
 });
