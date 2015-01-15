@@ -36,10 +36,8 @@ $(".navbar-nav li a[href^='#']").on('click', function(e) {
 // Get Early Access Button click
 $("#untorch-script").on("click", ".untorch-submit-button", function() {
   ga('send', 'event', 'button', 'click', 'GetEarlyAccess', 1);
-  alert("GetAccess"); 
 });
 // Try it Free quick scroll
 $('.btn-submit').on('click', function() {
   ga('send', 'event', 'button', 'click', 'QuickScroll', 1);
-  alert("scroll"); 
 });
