@@ -188,8 +188,10 @@ Headline
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: rgba(0,0,0,0.1);}
 
-.navbar-header {margin: 0; float: none;}
+/*
+ .navbar-header {margin: 0; float: none;}
 .navbar-inner {text-align: center;}
+*/
  
 /* ==========================================================================
 Logo
